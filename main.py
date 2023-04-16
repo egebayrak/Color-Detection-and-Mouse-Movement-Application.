@@ -73,8 +73,6 @@ def renk_bulma(boyut=1):
 
 
 if __name__ == '__main__':
-    print("Program başlatılıyor!!!")
     time.sleep(5)
     threading.Thread(target=script_kapat).start()
-    print("Program Açık!!!")
     renk_bulma()
